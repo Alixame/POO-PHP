@@ -66,21 +66,20 @@ class Carro { //<--Iniciando a Classe
 }
 
 //Instanciando um novo Objeto da Classe Carro
-$gol = new Carro();
-
+$gol2 = new Carro();
 
 //Instanciando um novo Objeto da Classe Carro
-$corsa = new Carro();
+$corsa2 = new Carro();
 
 //Atribui o 'Modelo' do Objeto "gol"
-$gol->setModelo("Gol Bola");
+$gol2->setModelo("Gol Bola");
 
 //Atribui o 'Motor' do Objeto "gol"
-$gol->setMotor("1.0");
+$gol2->setMotor("1.0");
 
 //Atribui o 'Ano' do Objeto "gol"
-$gol->setAno("2021");
+$gol2->setAno("2021");
 
 // Mostrando na tela o objeto $gol
 // OBS: var_dump é usado como comando de saida para ver os tipos das variaveis e seus valores
-var_dump($gol);
+var_dump($gol2);
