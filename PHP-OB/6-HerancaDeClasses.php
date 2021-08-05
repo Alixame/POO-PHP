@@ -1,6 +1,6 @@
-<?php
+<?php //<-Iniciando TAG PHP
 
-class Documento {
+class Documento { //<--Iniciando a Classe Documento
 
     //Criando variavel/atributo privado
     private $numero;
@@ -37,4 +37,19 @@ class CPF extends Documento { // <- Criando classe 'CPF' que herda atributos da 
     }
 
 }
+
+//Instanciando um novo Objeto da Classe CPF que herda atributos da classe Documento
+$cpf = new CPF();
+
+//Atribui o 'Numero' do Objeto "cpf"
+$cpf->setNumero('46153637885');
+
+//Mostrando na tela o retorno da validação
+var_dump($cpf->validar());
+
+echo "<br>";
+
+//Mostrando na tela o valor do atributo 'numero' do objeto 'cpf'
+var_dump($cpf->getNumero('46153637885'));
+
 
