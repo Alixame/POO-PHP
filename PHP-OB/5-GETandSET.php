@@ -68,6 +68,10 @@ class Carro { //<--Iniciando a Classe
 //Instanciando um novo Objeto da Classe Carro
 $gol = new Carro();
 
+
+//Instanciando um novo Objeto da Classe Carro
+$corsa = new Carro();
+
 //Atribui o 'Modelo' do Objeto "gol"
 $gol->setModelo("Gol Quadrado");
 
