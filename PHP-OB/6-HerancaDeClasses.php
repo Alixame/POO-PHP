@@ -29,7 +29,7 @@ class CPF extends Documento { // <- Criando classe 'CPF' que herda atributos da 
     public function validar():bool {
 
         //Validação do CPF
-        $numero = $this->numero;
+        $numeroCPF = $this->getNumero();
 
         //Retorna se a validação deu certo
         return true;
@@ -50,6 +50,6 @@ var_dump($cpf->validar());
 echo "<br>";
 
 //Mostrando na tela o valor do atributo 'numero' do objeto 'cpf'
-var_dump($cpf->getNumero('46153637885'));
+var_dump($cpf->getNumero());
 
 
