@@ -27,3 +27,5 @@ novas funções nas classes, mas sempre que uma classe tiver como implemento a i
 8- Classes Abstratas
 A grande diferença de Classes Abstratas para as Classes normais é que as Abstratas não instancia objetos, elas apenas servem de modelo e se
 extende para outras Classes.
+
+OBS: Uma classe só herdará de UMA Classe Abstrata, mas varias classes pode implementar uma Interface;
