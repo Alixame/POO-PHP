@@ -29,3 +29,7 @@ A grande diferença de Classes Abstratas para as Classes normais é que as Abstr
 extende para outras Classes.
 
 OBS: Uma classe só herdará de UMA Classe Abstrata, mas varias classes pode implementar uma Interface;
+
+9- Polimorfismo
+O Polimorfismo é quando sobreescrevemos funções que mude dependendo de seus objeto mas pertencem a mesma Classe
+O melhor exemplo para se entender isso é os animais, todos  São Animais, mas existe especies diferente e que fazem funções diferentes.
