@@ -12,6 +12,8 @@ automatica ao usar comandos especificos que gera ações dentro da nossa codigo,
 3- Metodos Estaticos
 
 4- Encapsulamento
+O Encapsulamento é o modo que pegamos um dado e armazenamos de formas que seja mais restrita o acesso
+daquele dado ou não, no php temos alguns tipos de Encapsulamento entre eles os modos: public,protected,private
 
 5- GET e SET
 
@@ -21,3 +23,7 @@ automatica ao usar comandos especificos que gera ações dentro da nossa codigo,
 As interfaces servem para criarmos padroes ou regras que queremos que outras classes sigam, as classes
 que recebem essa interface devem conter todas as funções e parametros que a interface possui, claro que podemos adicionar
 novas funções nas classes, mas sempre que uma classe tiver como implemento a interface, deve-se seguir a regra da interface.
+
+8- Classes Abstratas
+A grande diferença de Classes Abstratas para as Classes normais é que as Abstratas não instancia objetos, elas apenas servem de modelo e se
+extende para outras Classes.

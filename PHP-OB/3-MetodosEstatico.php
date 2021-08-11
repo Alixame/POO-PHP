@@ -72,6 +72,7 @@ class Documento { //<--Iniciando a Classe
 }
 
 $cpf = new Documento();
+
 $cpf->setNumero("");
 
 var_dump($cpf->getNumero());
