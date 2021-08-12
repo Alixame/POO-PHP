@@ -16,8 +16,13 @@ O Encapsulamento é o modo que pegamos um dado e armazenamos de formas que seja 
 daquele dado ou não, no php temos alguns tipos de Encapsulamento entre eles os modos: public,protected,private
 
 5- GET e SET
+Set -> permite definir o valor de uma variavel de forma segura;
+Get -> permite pegar o valor armazenado na variavel de forma segura;
+Usando GET e SET nossas informações podem ser armazenadas e usadas com maior segurança
+
 
 6- Herança de Classes
+As Heranças permitem que as classes herdem atributos de outras classes, sendo assim não precisando escrever novamente alguma função.
 
 7- Interfaces
 As interfaces servem para criarmos padroes ou regras que queremos que outras classes sigam, as classes
@@ -31,5 +36,5 @@ extende para outras Classes.
 OBS: Uma classe só herdará de UMA Classe Abstrata, mas varias classes pode implementar uma Interface;
 
 9- Polimorfismo
-O Polimorfismo é quando sobreescrevemos funções que mude dependendo de seus objeto mas pertencem a mesma Classe
-O melhor exemplo para se entender isso é os animais, todos  São Animais, mas existe especies diferente e que fazem funções diferentes.
+O Polimorfismo é quando sobrescrevemos funções que mude dependendo de seus objetos, mas pertencem a mesma Classe.
+O melhor exemplo para se entender isso é os animais, todos  São Animais(mesma classe), mas existe especies diferente e que fazem funções diferentes.
